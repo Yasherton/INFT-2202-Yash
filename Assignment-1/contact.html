@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./scripts/app.js"></script>
+    <script src="./node_modules//bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link
+      rel="sylesheet"
+      href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>
+      <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-dark p-4">
+            <a href="index.html">Home</a>
+            <a href="product.html">Product</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+    </header>
+    <form id="contactForm">
+        <div class="mb-3">
+            <label for="userName" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="userName" required>
+        </div>
+        <div class="mb-3">
+            <label for="userContact" class="form-label">Contact Number:</label>
+            <input type="tel" class="form-control" id="userContact" required>
+        </div>
+        <div class="mb-3">
+            <label for="userEmail" class="form-label">Email Address:</label>
+            <input type="email" class="form-control" id="userEmail" required>
+        </div>
+        <div class="mb-3">
+            <label for="userMessage" class="form-label">Message:</label>
+            <textarea class="form-control" id="userMessage" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>     
+</body>
+</html>

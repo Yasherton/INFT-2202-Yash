@@ -1,0 +1,32 @@
+body {
+    background-image: url(../images/background.webp);
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+   }
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+p {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}

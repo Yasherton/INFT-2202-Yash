@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer src="./scripts/app.js"></script>
+        <script src="./node_modules//bootstrap/dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./style/style.css">
+        <link
+        rel="stylesheet"
+        href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link
+        rel="stylesheet"
+        href="./node_modules/font-awesome/css/font-awesome.min.css">
+        <title>Login Page</title>
+    </head>
+    <header>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+            <a href="index.html">Home</a>
+            <a href="product.html">Product</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="login.html">Contact Us</a>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+        </nav>
+    </header>
+
+    <body>
+        <div class="flex-container">
+            <div class="login-container">
+                <form id="login-form">
+                    <h2>Login</h2>
+                    <div class="input-group">
+                        <label for="username"><i class="fa fa-user"></i></label>
+                        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password"><i class="fa fa-lock"></i></label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="login-button">Login</button>
+                    <p class="register-link">Don't have an account? <a href="register.html">Register Here!</a></p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

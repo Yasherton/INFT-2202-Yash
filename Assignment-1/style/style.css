@@ -3,6 +3,7 @@ body {
     background-size: cover;
     background-position: center;
     font-weight: bold;
+    
    }
 
 form {
@@ -29,4 +30,82 @@ p {
     font-weight: bold;
     font-size: 20px;
     color: #000000;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use minimum height to ensure it takes at least the full viewport height */
+    padding: 20px; /* Add padding to ensure content doesn't touch the edges */
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+
+
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #5f85db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #5071c4;
+}
+
+.register-link {
+    margin-top: 15px;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #5f85db;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.input-group label i {
+    padding-right: 20px; /* Adjust the value as needed */
+    
+
+}
+
+.input-group {
+    position: relative; /* Establishes a positioning context for the label */
+}
+
+.input-group label {
+
+    margin-top: 10px; /* Align with the input text */
+    pointer-events: none; /* Allows click to pass through to the input */
 }
